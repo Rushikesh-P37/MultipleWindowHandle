@@ -49,7 +49,7 @@ public class WindowHandle {
 			if (!parent_window.equals(child_window)) {
 				driver.switchTo().window(child_window);
 				WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
-				takeScreenshot();
+				//takeScreenshot();
 				wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("Java"))).click();
 				WebElement element = driver.findElement(By.xpath("//div[@id=\"bottomnextup\"]/../h1"));
 				copiedText = element.getText();
