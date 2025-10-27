@@ -5,11 +5,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 
-	<groupId>Test_Selenium</groupId>
-	<artifactId>Test_Selenium</artifactId>
+	<groupId>Test_WindowHandle</groupId>
+	<artifactId>Test_WindowHandle</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<name>Test_Selenium</name>
+	<name>Test_WindowHandle</name>
 	<url>https://maven.apache.org</url>
 
 	<properties>
@@ -85,6 +85,27 @@
 			<artifactId>testng</artifactId>
 			<version>7.10.2</version>
 			<scope>test</scope>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.google.zxing/core -->
+		<dependency>
+			<groupId>com.google.zxing</groupId>
+			<artifactId>core</artifactId>
+			<version>3.5.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.zxing</groupId>
+			<artifactId>javase</artifactId>
+			<version>3.5.3</version>
+		</dependency>
+
+		<!--
+		https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>6.1.0</version>
 		</dependency>
 
 

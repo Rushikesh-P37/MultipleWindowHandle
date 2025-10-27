@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.handle.WindowHandle">
+      <class name="Annoations.ReRun_Failed_TCs">
         <methods>
-          <include name="openBrowser"/>
-          <include name="takeScreenshot"/>
+          <include name="test1"/>
+          <include name="test6"/>
         </methods>
-      </class> <!-- com.handle.WindowHandle -->
+      </class> <!-- Annoations.ReRun_Failed_TCs -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

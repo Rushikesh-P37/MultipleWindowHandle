@@ -2,24 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-18T17:04:00 IST" name="Default suite" finished-at="2025-02-18T17:04:36 IST" duration-ms="36071">
+  <suite started-at="2025-10-27T22:46:00 IST" name="Default suite" finished-at="2025-10-27T22:46:20 IST" duration-ms="20570">
     <groups>
     </groups>
-    <test started-at="2025-02-18T17:04:00 IST" name="Default test" finished-at="2025-02-18T17:04:36 IST" duration-ms="36071">
-      <class name="com.handle.WindowHandle">
-        <test-method signature="openBrowser()[pri:0, instance:com.handle.WindowHandle@351d00c0]" started-at="2025-02-18T17:04:00 IST" name="openBrowser" description="Open the parent URL in the browser, navigate to the child window, and then return to the parent window." finished-at="2025-02-18T17:04:35 IST" duration-ms="35675" status="PASS">
+    <test started-at="2025-10-27T22:46:00 IST" name="Default test" finished-at="2025-10-27T22:46:20 IST" duration-ms="20570">
+      <class name="com.handle.TabSwitchDynamic">
+        <test-method signature="openBrowser()[pri:0, instance:com.handle.TabSwitchDynamic@293a5bf6]" started-at="2025-10-27T22:46:00 IST" name="openBrowser" description="Open mutliple tabs using list, and come back to the second tab" finished-at="2025-10-27T22:46:20 IST" duration-ms="20496" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="takeScreenshot()[pri:0, instance:com.handle.WindowHandle@351d00c0]" started-at="2025-02-18T17:04:35 IST" name="takeScreenshot" finished-at="2025-02-18T17:04:35 IST" duration-ms="196" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- takeScreenshot -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.handle.WindowHandle@351d00c0]" started-at="2025-02-18T17:04:35 IST" name="tearDown" finished-at="2025-02-18T17:04:36 IST" duration-ms="165" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.handle.WindowHandle -->
+      </class> <!-- com.handle.TabSwitchDynamic -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
